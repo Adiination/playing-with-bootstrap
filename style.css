@@ -1,0 +1,9 @@
+body {
+  background-image: url("pictures/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.constainer-fluid {
+  background-color: rgba(0, 0, 0, 0);
+}
