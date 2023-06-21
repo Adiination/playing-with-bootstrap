@@ -1,9 +1,38 @@
 body {
-  background-image: url("pictures/background.jpg");
+  background-image: url("pictures/background2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .constainer-fluid {
   background-color: rgba(0, 0, 0, 0);
+}
+h2 {
+  color: rgb(100, 159, 126);
+}
+
+/* #nav {
+  mix-blend-mode: color-burn;
+} */
+
+.card-body {
+  display: flex;
+}
+
+.card {
+  height: 200px;
+  width: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: rgb(143, 157, 189);
+  color: aliceblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.card-img {
+  width: max-content;
+  height: 120px;
+  text-align: center;
+  margin-top: 10px;
 }
