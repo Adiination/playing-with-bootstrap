@@ -30,9 +30,32 @@ h2 {
   color: aliceblue;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+.card:hover {
+  cursor: pointer;
+  color: black;
+  .card-img {
+    opacity: 0.5;
+  }
+  .card-img5 {
+    opacity: 0.5;
+  }
+}
 .card-img {
   width: max-content;
   height: 120px;
   text-align: center;
   margin-top: 10px;
+}
+.card-img5 {
+  width: 180px;
+  height: 150px;
+  text-align: center;
+  margin-top: 10px;
+}
+.section2 {
+  display: flex;
+}
+.spinner-border {
+  margin-top: 130px;
+  margin-left: 50px;
 }
