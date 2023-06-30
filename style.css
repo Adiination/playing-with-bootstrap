@@ -45,12 +45,14 @@ h2 {
   height: 120px;
   text-align: center;
   margin-top: 10px;
+  max-width: 100%;
 }
 .card-img5 {
   width: 180px;
   height: 150px;
   text-align: center;
   margin-top: 10px;
+  max-width: 100%;
 }
 .section2 {
   display: flex;
